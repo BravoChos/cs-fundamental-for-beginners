@@ -36,5 +36,13 @@ Relation is a basic unit that separates and stores information in a database als
 
 | type  | data     | relation   | database |
 | ----- | -------- | ---------- | -------- |
-| MySql | record   | table      | DB       |
-| NoSQL | document | collection | DB       |
+| MySql | record   | table      | db       |
+| NoSQL | document | collection | db       |
+
+### 3.1.4 Attribute
+
+In general, an attribute is a characteristic and a database component. For example, if there is a `car` entity, 'car number', 'color', 'model', and 'price' can be a attributes.
+
+### 3.1.5 Domain
+
+A data domain is the collection of values that a data element may contain. For example, if we have 'gender' attributes,possible domain would be 'male' , 'female' and 'any'.
