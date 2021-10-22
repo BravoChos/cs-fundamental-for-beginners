@@ -90,3 +90,9 @@ CREATE TABLE movie(
 ## 3.1.6 Relationship
 
 1:1,1:N, N:M
+
+## 3.1.7 Key
+
+: Primary Key, Foreign Key, Candidate key, Alternate key, Super key.
+
+PK is a key in a relational database that is unique for each record.
