@@ -25,4 +25,4 @@ example: Building or Apartment
 
 **Weak Entity:**  is dependent on a strong entity to ensure its existence. Unlike a strong entity, a weak entity does not have any primary key. 
 
-example: Unit or room
+example: Unit or Room
