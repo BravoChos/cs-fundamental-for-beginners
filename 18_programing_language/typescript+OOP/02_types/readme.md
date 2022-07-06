@@ -50,6 +50,11 @@ Rest parameters are treated as a boundless number of optional parameters. When p
 ## 3. Array and Tuple
 
 (example code: 3-array.ts)
+
 Array: Any JavaScript array, type can be flexible or strict (regarding the element types)
 Tuple:: Added by TypeScript: Fixed-length array (not recommended)
 (UseCase. react => useState function)
+
+## 4. Alias and Union
+
+(example code: 4-alias.ts and 5-union.ts)
