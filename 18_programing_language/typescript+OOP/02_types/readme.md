@@ -46,3 +46,10 @@ Function parameters can also be assigned values by default known as default para
 ### 2.2 Rest Parameter
 
 Rest parameters are treated as a boundless number of optional parameters. When passing arguments for a rest parameter, you can use as many as you want; you can even pass none. The compiler will build an array of the arguments passed in with the name given after the ellipsis `(...)`, allowing you to use it in your function.
+
+## 3. Array and Tuple
+
+(example code: 3-array.ts)
+Array: Any JavaScript array, type can be flexible or strict (regarding the element types)
+Tuple:: Added by TypeScript: Fixed-length array (not recommended)
+(UseCase. react => useState function)
