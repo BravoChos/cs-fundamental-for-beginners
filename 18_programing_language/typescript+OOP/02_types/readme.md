@@ -58,3 +58,18 @@ Tuple:: Added by TypeScript: Fixed-length array (not recommended)
 ## 4. Alias and Union
 
 (example code: 4-alias.ts and 5-union.ts)
+
+## 4. Intersection and Enums
+
+(example code: 6-intersection.ts and 7-enums.ts)
+
+Intersection types are closely related to union types, but they are used very differently. An intersection type combines multiple types into one. This allows you to add together existing types to get a single type that has all the features you need.
+
+Enums allow a developer to define a set of named constants. Using enums can make it easier to document intent, or create a set of distinct cases. TypeScript provides both numeric and string-based enums.
+
+### Are enums useful?
+
+Not exactly in JS, because type is not secured in JS.
+So it's better to use `union` type instead.
+
+Enums might be useful when co-wokring with moblie app developer since there are no union type in app client.
