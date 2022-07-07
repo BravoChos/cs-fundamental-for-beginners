@@ -59,7 +59,7 @@ Tuple:: Added by TypeScript: Fixed-length array (not recommended)
 
 (example code: 4-alias.ts and 5-union.ts)
 
-## 4. Intersection and Enums
+## 5. Intersection and Enums
 
 (example code: 6-intersection.ts and 7-enums.ts)
 
@@ -73,3 +73,9 @@ Not exactly in JS, because type is not secured in JS.
 So it's better to use `union` type instead.
 
 Enums might be useful when co-wokring with moblie app developer since there are no union type in app client.
+
+## 6. Inference and assertion
+
+(example code: 8-inference.ts and 9-assertion.ts)
+
+Try not to rely on `inference`, and not recommended using assertion.
