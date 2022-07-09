@@ -83,3 +83,11 @@ Try not to rely on `inference`, and not recommended using assertion.
 ## Projects
 
 1. Calculator
+2. Game
+3. Loading
+
+How to play (example)
+
+```
+ts-node game_solution.ts
+```
