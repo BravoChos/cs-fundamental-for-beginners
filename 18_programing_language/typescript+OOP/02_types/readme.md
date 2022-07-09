@@ -79,3 +79,15 @@ Enums might be useful when co-wokring with moblie app developer since there are 
 (example code: 8-inference.ts and 9-assertion.ts)
 
 Try not to rely on `inference`, and not recommended using assertion.
+
+## Projects
+
+1. Calculator
+2. Game
+3. Loading
+
+How to play (example)
+
+```
+ts-node game_solution.ts
+```
