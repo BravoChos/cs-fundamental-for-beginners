@@ -1,3 +1,42 @@
+# Object Oriented Programming (OOP)
+
+OOP is a programming `paradigm` based on the concept of 'object' which can contain `data` and `code`.
+
+## Imperative and Procedural Programming
+
+### Disadvantages of Procedural Programming
+
+- The program code is harder to understand and write when Procedural Programming is employed.
+- The Procedural code is often not reusable, which may pose the need to recreate the code if is needed to use in another application.
+- Difficult to relate with real-world objects.
+- Hard to maintain the code.
+
+### Advantage of OOP
+
+- Re-usablility
+- Data Redundancy
+- Code maintenance
+- Security: by use of data hiding and absstractio mechanism
+- Easy troubleshooting
+- Polymorphism Flexibility
+- Productivity, High Quality, Faster Development
+
+## Class
+
+- template
+- declare once
+- no data in
+
+## Object
+
+- insance of a class
+- created many times
+- data in
+
+## Method
+
+- Can modify a class state that would apply across all the instances of the class
+
 # 4 Principles of Object-Oriented Programming
 
 The four principles of object-oriented programming (abstraction, inheritance, encapsulation, and polymorphism) are features that - if used properly - can help us write more testable, flexible, and maintainable code.
@@ -23,3 +62,17 @@ Inheritance is the ability of one object to acquire some/all properties of anoth
 4. Polymorphism (= Many Form)
 
 Polymorphism gives us a way to use a class exactly like its parent so there is no confusion with mixing types. This being said, each child sub-class keeps its own functions/methods as they are.
+
+## Excercise
+
+### Step 1. Create makeCoffee function without OOP
+
+Create a `makeCoffee` funciton, which takes `shots` as a argument and return `CoffeeCup` object. And if beans are all out, then throw and error.
+
+#example solution
+(01_without-oop.ts)
+
+### Step 2. Create CoffeeMake class!
+
+#example solution
+(02_class.ts)
