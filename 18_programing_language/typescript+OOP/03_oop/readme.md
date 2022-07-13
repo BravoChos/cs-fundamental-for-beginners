@@ -76,3 +76,16 @@ Create a `makeCoffee` funciton, which takes `shots` as a argument and return `Co
 
 #example solution
 (02_class.ts)
+
+### Step 3. Encapsulate CoffeMake class!
+
+Class Modifier
+
+| Modifier  |                                   Description                                    |
+| --------- | :------------------------------------------------------------------------------: |
+| public    |     No access restriction. Can be accessed from an object or any child class     |
+| private   |            Can only be accessed from within the class that defines it            |
+| protected | Can only be accessed from within the class that defines it, as well as any child |
+
+#example solution
+(03_encapsulation.ts)
