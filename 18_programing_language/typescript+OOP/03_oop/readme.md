@@ -72,6 +72,10 @@ Create a `makeCoffee` funciton, which takes `shots` as a argument and return `Co
 #example solution
 (01_without-oop.ts)
 
+```
+ts-node 01_without-oop.ts
+```
+
 ### Step 2. Create CoffeeMake class!
 
 #example solution
@@ -79,13 +83,18 @@ Create a `makeCoffee` funciton, which takes `shots` as a argument and return `Co
 
 ### Step 3. Encapsulate CoffeMake class!
 
-Class Modifier
+`Class Modifier`
 
-| Modifier  |                                   Description                                    |
-| --------- | :------------------------------------------------------------------------------: |
-| public    |     No access restriction. Can be accessed from an object or any child class     |
-| private   |            Can only be accessed from within the class that defines it            |
+| Modifier  | Description                                                                      |
+| --------- | -------------------------------------------------------------------------------- |
+| public    | No access restriction. Can be accessed from an object or any child class         |
+| private   | Can only be accessed from within the class that defines it                       |
 | protected | Can only be accessed from within the class that defines it, as well as any child |
 
 #example solution
 (03_encapsulation.ts)
+
+### Step 4. Abstraction (feat. interface)
+
+#example solution
+(04_abstraction.ts)
