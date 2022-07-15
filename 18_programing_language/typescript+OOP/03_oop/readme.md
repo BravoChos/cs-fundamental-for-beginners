@@ -98,3 +98,8 @@ ts-node 01_without-oop.ts
 
 #example solution
 (04_abstraction.ts)
+
+### Step 5. Inheritance
+
+#example solution
+(05_inheritance.ts)
