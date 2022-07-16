@@ -113,3 +113,8 @@ ts-node 01_without-oop.ts
 
 #example
 (07_composition.ts)
+
+### Step 8. Implement Abstract
+
+#example
+(08_apply_abstract.ts)
