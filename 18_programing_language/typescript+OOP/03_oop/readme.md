@@ -96,10 +96,20 @@ ts-node 01_without-oop.ts
 
 ### Step 4. Abstraction (feat. interface)
 
-#example solution
+#example
 (04_abstraction.ts)
 
 ### Step 5. Inheritance
 
-#example solution
+#example
 (05_inheritance.ts)
+
+### Step 6. Polymorphism
+
+#example
+(06_polymorphism.ts)
+
+### Step 7. Composition
+
+#example
+(07_composition.ts)
