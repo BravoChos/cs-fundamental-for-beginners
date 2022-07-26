@@ -1,6 +1,3 @@
-// const fs = require("fs");
-// const { invoices } = JSON.parse(fs.readFileSync("./invoices.json"));
-// const { plays } = JSON.parse(fs.readFileSync("./plays.json"));
 import invoices from "./invoices.json" assert { type: "json" };
 import plays from "./plays.json" assert { type: "json" };
 
@@ -14,10 +11,6 @@ function statement(_invoice, _plays) {
     minimumFractionDigits: 2,
   }).format;
 
-  //   console.log(_invoice);
-  //   console.log(_invoice.performances);
-  //   console.log(_invoice.performances[0]);
-  //   return false;
   for (let perf of _invoice.performances) {
     const play = _plays[perf.playID];
     let thisAmount = 0;
@@ -57,8 +50,5 @@ function statement(_invoice, _plays) {
   result += `extra credits: ${volumeCredits} points\n`;
   return result;
 }
-// console.log(invoices);
-// let _invoice = JSON.parse(invoices);
-// const _plays = JSON.parse(playsJson);
-// console.log(_invoice, _plays);
+
 console.log(statement(invoices[0], plays));

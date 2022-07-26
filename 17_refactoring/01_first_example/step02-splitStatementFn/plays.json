@@ -1,0 +1,5 @@
+{
+  "hamlet": { "name": "Frozen", "type": "family" },
+  "wicked": { "name": "Wicked", "type": "comedy" },
+  "lionking": { "name": "Lion King", "type": "family" }
+}
