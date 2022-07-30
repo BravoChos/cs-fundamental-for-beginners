@@ -8,7 +8,6 @@ function statement(_invoice, _plays) {
     result += ` ${playFor(perf).name}: ${USD(amountFor(perf))} (${
       perf.audience
     } seat(s))\n`;
-    totalAmount += amountFor(perf);
   }
 
   // step 1. split Loop & slide statements
@@ -22,6 +21,22 @@ function statement(_invoice, _plays) {
   result += `total amount: $${USD(totalAmount())}\n`;
   result += `extra credits: ${totalVolumeCredits()} points\n`;
   return result;
+
+  function totalAmount() {
+    let result = 0;
+    for (let perf of _invoice.performances) {
+      result += amountFor(perf);
+    }
+    return result;
+  }
+
+  function totalVolumeCredits() {
+    let result = 0;
+    for (let perf of _invoice.performances) {
+      result += volumeCreditsFor(perf);
+    }
+    return result;
+  }
 }
 
 function amountFor(aPerformance) {
@@ -67,22 +82,6 @@ function USD(aNumber) {
     currency: "USD",
     minimumFractionDigits: 2,
   }).format(aNumber / 100);
-}
-
-function totalAmount() {
-  let result = 0;
-  for (let perf of invoice.performances) {
-    result += amountFor(perf);
-  }
-  return result;
-}
-
-function totalVolumeCredits() {
-  let result = 0;
-  for (let perf of invoice.performances) {
-    result += volumeCreditsFor(perf);
-  }
-  return result;
 }
 
 console.log(statement(invoices[0], plays));
