@@ -4,10 +4,12 @@ import plays from "./plays.json" assert { type: "json" };
 function statement(invoice, plays) {
   const statementData = {};
   statementData.customer = invoice.customer;
-  statementData.performances = invoice.performances;
-  // remove invoice argument
-  // return renderPlainText(statementData, invoice, plays);
+  statementData.performances = invoice.performances.map(enrichPerformance);
   return renderPlainText(statementData, invoice, plays);
+
+  function enrichPerformance(aPerformance) {
+    return { ...aPerformance };
+  }
 }
 
 function renderPlainText(data, _plays) {
