@@ -15,7 +15,7 @@ function renderPlainText(data, _plays) {
     } seat(s))\n`;
   }
 
-  result += `total amount: $${usd(data.totalAmount)}\n`;
+  result += `total amount: ${usd(data.totalAmount)}\n`;
   result += `extra credits: ${data.totalVolumeCredits} points\n`;
   return result;
 }
