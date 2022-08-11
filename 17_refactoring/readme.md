@@ -31,3 +31,39 @@ by Martin Fowler
 ## Rule #6.
 
 > The true test of good code is how easy it is to change it.
+
+<br/>
+
+# DEFINING REFACTORING
+
+> Refactoring (noun): a change made to the internal structure of software to make it easier to understand and cheaper to modify without changing its observable behavior.
+
+> If someone says their code was broken for a couple of days while they are
+> refactoring, you can be pretty sure they were not refactoring.
+
+# Why we should Refactoring?
+
+1. Refactoring Improves the Design of Software
+
+2. Refactoring Helps Me Find Bugs
+
+3. Refactoring Helps Me Program Faster
+
+# When should we refactor?
+
+> The Rule of Three
+
+> The first time you do something, you just do it.
+> The second time you do something similar, you wince at the
+> duplication, but you do the duplicate thing anyway. The third time you do
+> something similar, you refactor.
+
+> You have to refactor when you run into ugly code—but excellent code needs plenty of refactoring too.
+
+# PROBLEMS WITH REFACTORING ??
+
+> The whole purpose of refactoring is to make us program faster, producing more value with less effort.
+
+The most dangerous way that people get trapped is when they try to justify refactoring in terms of “clean code,” “good engineering practice,” or similar moral reasons.
+
+The point of refactoring isn’t to show how sparkly a code base is—it is purely economic. We refactor because it makes us faster—faster to add features, faster to fix bugs.
