@@ -11,6 +11,10 @@ export class Province {
     this._producers.push(arg);
     this._totalProduction += arg.production;
   }
+
+  get shortfall() {
+    return this._demand - this._totalProduction;
+  }
 }
 
 export class Producer {
@@ -38,10 +42,6 @@ export class Producer {
     this._province.totalProduction += newProduction;
     this._production;
     this._production = newProduction;
-  }
-
-  get shortfall() {
-    return this._demand - this.totalProduction;
   }
 
   get profit() {

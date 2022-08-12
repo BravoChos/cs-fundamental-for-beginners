@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "scripts": {
     "test": "mocha province.spec js -r @babel/register"
   },
