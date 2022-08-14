@@ -1,5 +1,5 @@
 import { Province } from "./Province.js";
-import { strict as assert } from "assert";
+import { expect, assert } from "chai";
 
 function sampleProvinceData() {
   return {
@@ -18,5 +18,9 @@ describe("province", function () {
   it("shortfall", function () {
     const asia = new Province(sampleProvinceData());
     assert.equal(asia.shortfall, 5);
+  });
+  it("profit", function () {
+    const asia = new Province(sampleProvinceData());
+    expect(asia.profit).equal(230);
   });
 });
