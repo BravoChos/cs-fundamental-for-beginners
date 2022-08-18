@@ -14,6 +14,14 @@ npm test
 
 ## Tips
 
-Always make sure a test will fail when it should.
+- Always make sure a test will fail when it should.
 
-Run tests frequently. Run those exercising the code you’re working on at least every few minutes; run all tests at least daily.
+- Run tests frequently. Run those exercising the code you’re working on at least every few minutes; run all tests at least daily.
+
+- Think of the boundary conditions under which things might go wrong and
+  concentrate your tests there.
+
+- Don’t let the fear that testing can’t catch all bugs stop you from writing tests
+  that catch most bugs.
+
+- When you get a bug report, start by writing a unit test that exposes the bug.
