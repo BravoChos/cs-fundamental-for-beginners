@@ -67,3 +67,27 @@ by Martin Fowler
 The most dangerous way that people get trapped is when they try to justify refactoring in terms of “clean code,” “good engineering practice,” or similar moral reasons.
 
 The point of refactoring isn’t to show how sparkly a code base is—it is purely economic. We refactor because it makes us faster—faster to add features, faster to fix bugs.
+
+#
+
+> When you feel the need to write a comment, first try to refactor the code so that any comment becomes superfluous.
+
+> Make sure all tests are fully automatic and that they check their own results.
+
+> A suite of tests is a powerful bug detector that decapitates the time it takes to
+> find bugs.
+
+> Always make sure a test will fail when it should.
+
+> Run tests frequently. Run those exercising the code you’re working on at least
+> every few minutes; run all tests at least daily.
+
+> It is better to write and run incomplete tests than not to run complete tests.
+
+> Think of the boundary conditions under which things might go wrong and
+> concentrate your tests there.
+
+> Don’t let the fear that testing can’t catch all bugs stop you from writing tests
+> that catch most bugs.
+
+> When you get a bug report, start by writing a unit test that exposes the bug.
