@@ -32,6 +32,6 @@ function printDetails(invoice, outstanding) {
 
 const invoice = {
   orders: [{ amount: 2 }, { amount: 5 }],
-  customer: "chase",
+  customer: "Chase",
 };
 printOwing(invoice);
