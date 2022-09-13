@@ -1,6 +1,6 @@
 let a = height * width;
 
-const cpyNm = "애플";
+const cpyNm = "apple";
 
-let tpHd = "제목없음";
+let tpHd = "Apple TV";
 let result = `<h1>${tpHd}</h1>`;

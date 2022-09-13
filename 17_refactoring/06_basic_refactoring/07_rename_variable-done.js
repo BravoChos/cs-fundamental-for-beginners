@@ -1,6 +1,6 @@
 let area = width * height;
 
-const companyName = "애플";
+const companyName = "apple";
 
-let title = "제목없음";
+let title = "Apple TV";
 let result = `<h1>${title}</h1>`;
