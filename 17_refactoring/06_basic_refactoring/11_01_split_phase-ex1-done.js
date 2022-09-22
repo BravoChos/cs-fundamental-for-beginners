@@ -30,7 +30,7 @@ function calcuateShippingCost(basePrice, quantity, shippingMethod) {
   return quantity * shippingPerCase;
 }
 
-// 사용 예:
+// Use Case:
 const product = {
   basePrice: 10,
   discountRate: 0.1,

@@ -13,7 +13,7 @@ export function priceOrder(product, quantity, shippingMethod) {
   return price;
 }
 
-// 사용 예:
+// Use Case:
 const product = {
   basePrice: 10,
   discountRate: 0.1,
