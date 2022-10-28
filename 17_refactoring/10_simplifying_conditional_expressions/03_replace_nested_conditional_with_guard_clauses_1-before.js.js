@@ -1,10 +1,10 @@
 export function payAmount(employee) {
   let result;
   if (employee.isSeparated) {
-    result = { amount: 0, reasonCode: 'SEP' };
+    result = { amount: 0, reasonCode: "SEP" };
   } else {
     if (employee.isRetired) {
-      result = { amount: 0, reasonCode: 'RET' };
+      result = { amount: 0, reasonCode: "RET" };
     } else {
       // lorem.ipsum(dolor.sitAmet);
       // consectetur(adipiscing).elit();
@@ -18,5 +18,5 @@ export function payAmount(employee) {
 }
 
 function someFinalComputation() {
-  return { amount: 999, reasonCode: 'UNICORN' };
+  return { amount: 999, reasonCode: "UNICORN" };
 }
