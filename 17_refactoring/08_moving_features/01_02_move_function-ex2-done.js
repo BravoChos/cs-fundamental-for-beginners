@@ -28,8 +28,6 @@ export class AccountType {
       return daysOverdrawn * 1.75;
     }
     const baseCharge = 10;
-    return daysOverdrawn <= 7
-      ? baseCharge
-      : baseCharge + (daysOverdrawn - 7) * 0.85;
+    return daysOverdrawn <= 7 ? baseCharge : baseCharge + (daysOverdrawn - 7) * 0.85;
   }
 }

@@ -15,9 +15,7 @@ function distanceTravelled(scenario, time) {
     // consider secondaryAcceleration
     let primaryVelocity = acc * scenario.delay;
     acc = (scenario.primaryForce + scenario.secondaryForce) / scenario.mass;
-    result +=
-      primaryVelocity * secondaryTime +
-      0.5 * acc * secondaryTime * secondaryTime;
+    result += primaryVelocity * secondaryTime + 0.5 * acc * secondaryTime * secondaryTime;
   }
 }
 

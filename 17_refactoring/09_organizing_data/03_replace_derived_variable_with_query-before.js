@@ -22,4 +22,3 @@ class ProductionPlan {
     this._production += adjustment.amount;
   }
 }
-

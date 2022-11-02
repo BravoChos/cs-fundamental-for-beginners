@@ -62,7 +62,7 @@ class TelephoneNumber {
   }
 }
 
-const person = new Person('chase', '010', '12345678');
+const person = new Person("chase", "010", "12345678");
 console.log(person.name);
 console.log(person.officeAreaCode);
 console.log(person.officeNumber);
