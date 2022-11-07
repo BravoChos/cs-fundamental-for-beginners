@@ -1,4 +1,4 @@
-// 예제 1
+// example 1
 function setDimension(name, value) {
   if (name === 'height') {
     this._height = value;
@@ -10,10 +10,10 @@ function setDimension(name, value) {
   }
 }
 
-// 예제 2
+// example 2
 class Concert {
   book(customer, isPremium) {}
 }
 
-// 예제 3
+// example 3
 function setSwitch(on);

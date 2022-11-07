@@ -1,4 +1,4 @@
-// 예제 1
+// example 1
 function tenPercentRaise(person) {
   person.salary = person.salary.multiply(1.1);
 }
@@ -7,11 +7,10 @@ function fivePercentRaise(person) {
   person.salary = person.salary.multiply(1.05);
 }
 
-// 예제 2
+// example 2
 export function baseCharge(usage) {
   if (usage < 0) return usd(0);
-  const amount =
-    bottomBand(usage) * 0.03 + middleBand(usage) * 0.05 + topBand(usage) * 0.07;
+  const amount = bottomBand(usage) * 0.03 + middleBand(usage) * 0.05 + topBand(usage) * 0.07;
   return usd(amount);
 }
 
@@ -29,8 +28,8 @@ function topBand(usage) {
 
 function usd(value) {
   return {
-    currency: '$',
-    currencyName: 'USD',
+    currency: "$",
+    currencyName: "USD",
     value: value,
   };
 }
